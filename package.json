@@ -2,7 +2,8 @@
 	"name": "latex-snippets-jeff",
 	"displayName": "Latex Snippets",
 	"description": "Useful Snippets for LaTeX",
-	"version": "0.0.1",
+    "version": "0.0.1",
+    "publisher": "JeffersonQin",
 	"engines": {
 		"vscode": "^1.41.0"
 	},
