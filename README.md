@@ -103,3 +103,7 @@ Add new functions. Now you can plot the regression graphs quickly by using the `
 ### 1.1.1
 
 Add feature descriptions to `README.md` and bug fix.
+
+### 1.1.2
+
+Adding Information.
