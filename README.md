@@ -24,3 +24,11 @@ No known issues yet.
 ### 1.0.0
 
 Initial release of latex-snippets-jeff.
+
+### 1.0.1
+
+Rename the project.
+
+### 1.1.0
+
+Add new functions. Now you can plot the regression graphs quickly by using the `LaTeX Plotting Tool` command.

@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style type="text/css">
+        body {
+            font-size: 70%;
+            font-family: verdana, helvetica, arial, sans-serif;
+        }
+        canvas { border: 1px solid black; }
+        input[type=range]:before  {
+            content: attr(min);
+         }
+        input[type=range]:after  {
+        content: attr(max);
+        }
+        .canvas_div {
+            position: absolute;
+            z-index: 999;
+            top: 4px;
+            left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="canvas_div">
+        <canvas id="myCanvas" width="498" height="498"></canvas>
+    </div>
+    <div class="img_div" id = "img_div" style="width:500px; height:500px; top:4px; left:0px; position:relative">
+        <svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+            <title>middle</title>
+            <desc>Created with Sketch.</desc>
+            <defs></defs>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="middle">
+                    <g id="Base">
+                        <rect id="Rectangle" stroke="#000000" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" x="0.5" y="0.5" width="499" height="499"></rect>
+                        <g id="Path-2" transform="translate(52.000000, 0.000000)" stroke="#CACACA" stroke-width="2">
+                            <path d="M251,500 L251,0"></path>
+                            <path d="M301,500 L301,0"></path>
+                            <path d="M351,500 L351,0"></path>
+                            <path d="M401,500 L401,0"></path>
+                            <path d="M1,500 L1,0"></path>
+                            <path d="M51,500 L51,0"></path>
+                            <path d="M101,500 L101,0"></path>
+                            <path d="M151,500 L151,0"></path>
+                        </g>
+                        <g id="Path-2" transform="translate(250.000000, 250.000000) rotate(90.000000) translate(-250.000000, -250.000000) translate(49.000000, 0.000000)" stroke="#CACACA" stroke-width="2">
+                            <path d="M251,500 L251,0"></path>
+                            <path d="M301,500 L301,0"></path>
+                            <path d="M351,500 L351,0"></path>
+                            <path d="M401,500 L401,0"></path>
+                            <path d="M1,500 L1,0"></path>
+                            <path d="M51,500 L51,0"></path>
+                            <path d="M101,500 L101,0"></path>
+                            <path d="M151,500 L151,0"></path>
+                        </g>
+                    </g>
+                    <path d="M251,500 L251,5" id="Path-2" stroke="#000000" stroke-width="2"></path>
+                    <path id="Path-2-decoration-1" d="M254,15.8 L251,5 L248,15.8" stroke="#000000" stroke-width="2"></path>
+                    <path d="M1,252 L496,252" id="Path-2" stroke="#000000" stroke-width="2"></path>
+                    <path id="Path-2-decoration-1" d="M485.2,255 L496,252 L485.2,249" stroke="#000000" stroke-width="2"></path>
+                </g>
+            </g>
+        </svg>
+    </div>
+    <div style="top:5px; position:relative">
+        <div id="fields">
+            <fieldset>
+                <legend>Node Operation</legend>
+                <button id="delButton">Delete Last Point</button>
+                <button id="clearButton">Clear All</button>    
+            </fieldset>
+            <fieldset>
+                <legend>Graph</legend>
+                <label>Choose Degree: </label>
+                <input id="range" type="range" min="1" max="1" value="1" step="1">
+                <label id="range_label">1</label>
+                <input id="range_text" type="text" value="1" placeholder="Input Degree">
+                <br>
+                <button id="plot">Preview Plot</button>
+            </fieldset>
+            <fieldset id="outputstyle">
+                <legend>Output Coordinate Position</legend>
+                <input type="radio" name='outputstyle' id="outputstyle_left"/>left
+                <input type="radio" name='outputstyle' id="outputstyle_middle"/>middle
+                <input type="radio" name='outputstyle' id="outputstyle_right"/>right
+                <input type="radio" name='outputstyle' id="outputstyle_center"/>center
+                <input type="radio" name='outputstyle' id="outputstyle_box"/>box
+                <input type="radio" name='outputstyle' id="outputstyle_none"/>none
+            </fieldset>
+            <fieldset id="position">
+                <legend>Preview Coordinate Position</legend>
+                <input type="radio" name='position' id="position_quadrant_1"/>Quadrant 1
+                <input type="radio" name='position' id="position_quadrant_2"/>Quadrant 2
+                <input type="radio" name='position' id="position_quadrant_3"/>Quadrant 3
+                <input type="radio" name='position' id="position_quadrant_4"/>Quadrant 4
+                <input type="radio" name='position' id="position_center"/>Center
+            </fieldset>
+            <fieldset>
+                <legend>Output Options</legend>
+                <label>Title: </label>
+                <input type="text" id="title_text" placeholder="Example" value="Example">
+                <label>Maximum Range: </label>
+                <input type="text" id="max_range">
+                <br>
+                <input type="checkbox" id="include_dots">Include Dots
+                <button id="generate">Generate Function</button>
+                <input type="color" id="graph_color">
+            </fieldset>
+            <textarea id="output" style="width: 300px; height: 200px"></textarea>
+        </div>
+    </div style="top:5px; position:relative">
+    <script src="../src/plotDots.js" type="text/javascript"></script>
+</body>
+
+</html>

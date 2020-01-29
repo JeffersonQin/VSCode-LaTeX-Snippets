@@ -198,6 +198,7 @@
         "body": [
             "\\begin{tikzpicture}",
             "\\begin{axis}[",
+            "legend pos=outer north east,",
             "title=${1:Example},",
             "axis lines =${2| box, left, middle, center, right, none|},",
             "xlabel = \\$x\\$,",
@@ -293,6 +294,7 @@
         "body": [
             "\\begin{tikzpicture}",
             "\\begin{axis}[",
+            "legend pos=outer north east,",
             "title=${1:Example},",
             "axis lines =${2| box, left, middle, center, right, none|},",
             "colormap/${3|hot,hot2,jet,blackwhite,bluered,cool,greenyellow,redyellow,violet|},",

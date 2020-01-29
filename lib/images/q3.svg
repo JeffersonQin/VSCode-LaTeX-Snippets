@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="504px" height="504px" viewBox="0 0 504 504" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>q3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="q3" transform="translate(0.000000, 4.000000)">
+            <g id="Base">
+                <rect id="Rectangle" stroke="#000000" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" x="0.5" y="0.5" width="499" height="499"></rect>
+                <g id="Path-2" transform="translate(52.000000, 0.000000)" stroke="#CACACA" stroke-width="2">
+                    <path d="M251,500 L251,0"></path>
+                    <path d="M201,500 L201,0"></path>
+                    <path d="M301,500 L301,0"></path>
+                    <path d="M351,500 L351,0"></path>
+                    <path d="M401,500 L401,0"></path>
+                    <path d="M1,500 L1,0"></path>
+                    <path d="M51,500 L51,0"></path>
+                    <path d="M101,500 L101,0"></path>
+                    <path d="M151,500 L151,0"></path>
+                </g>
+                <g id="Path-2" transform="translate(250.000000, 250.000000) rotate(90.000000) translate(-250.000000, -250.000000) translate(49.000000, 0.000000)" stroke="#CACACA" stroke-width="2">
+                    <path d="M251,500 L251,0"></path>
+                    <path d="M201,500 L201,0"></path>
+                    <path d="M301,500 L301,0"></path>
+                    <path d="M351,500 L351,0"></path>
+                    <path d="M401,500 L401,0"></path>
+                    <path d="M1,500 L1,0"></path>
+                    <path d="M51,500 L51,0"></path>
+                    <path d="M101,500 L101,0"></path>
+                    <path d="M151,500 L151,0"></path>
+                </g>
+            </g>
+            <path d="M500,500 L500,5" id="Path-2" stroke="#000000" stroke-width="2"></path>
+            <path id="Path-2-decoration-1" d="M503,15.8 L500,5 L497,15.8" stroke="#000000" stroke-width="2"></path>
+            <path d="M1,0 L496,0" id="Path-2" stroke="#000000" stroke-width="2"></path>
+            <path id="Path-2-decoration-1" d="M485.2,3 L496,0 L485.2,-3" stroke="#000000" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>
