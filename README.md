@@ -31,26 +31,19 @@ This extension includes a variety of snippets for LaTeX including making environ
    - `plotgraph2d` or `\plotgraph2d`: Plot a 2D Graph in the 2D graph environment, noted that this can also be used in the 3D environment.
         > In this case, you have to specify the math expression of the function and the `LaTeX` form of the function since you may want it to shown as the label of the graph. Also, the domain and the color have to be given out.
    - `plotcircle2d` or `\plotcircle2d`: Plot a 2D Circle in the 2D graph environment, noted that this can also be used in the 3D environment.
-        > This snippet is implemented by using another variable t, since the normal equation of the circle: 
-    $(x-a)^2 + (y-b)^2 = r^2$ can be transformed into 
-        $$
-        \begin{aligned}
-            \begin{cases}
-                x = r\cos t + a \\
-                y = r\sin t + b
-            \end{cases}
-        \end{aligned}
-        $$
-        > Noted that even if the implicit function can be transformed into two explicit functions: $\displaystyle {y = b \pm \sqrt{r^2-(x-a)^2}}$,the process of adding legendentry will produce problem of colors.
+        > This snippet is implemented by using another variable t, since the normal equation of the circle: (x-a)^2+(y-b)^2=r^2 can be transformed into x=a+rcost, y=b+rsint.
+
+        > Noted that even if the implicit function can be transformed into two explicit functions: y=b±√(r^2-(x-a)^2),the process of adding legendentry will produce problem of colors.
     - `plotline2d` or `\plotline2d`: Plot a 2D Line in the 2D graph environment, noted that this can also be used in the 3D environment.
-        > Using this snippet, you have to specify the domain of the function, the color of the graph and the slope and the y-intersect of the function. (Linear function: $y = ax + b$)
+        > Using this snippet, you have to specify the domain of the function, the color of the graph and the slope and the y-intersect of the function. (Linear function: y=ax+b)
     - `plotellipse2d` or `\plotellipse2d`: Plot a 2D Ellipse in the 2D graph environment, noted that this can also be used in the 3D environment.
-        > Since the standard equation for ellipse is $\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$, the value of $a$ and $b$ have to be specified. Also after considering of the movement of the graph, the equation can be transformed into $\displaystyle\frac{(x-x_0)^2}{a^2}+\frac{(y-y_0)^2}{b^2}=1$. The value of $x_0$ and $y_0$ also have to be given out.
+        > Since the standard equation for ellipse is x^2/a^2+y^2/b^2, the value of a and b have to be specified. Also after considering of the movement of the graph, the equation can be transformed into (x-x_0)^2/a^2+(y-y_0)^2/b^2=1. The value of x_0 and y_0 also have to be given out.
     - `plotenvironment3d` or `\plotenvironment3d`: Create a 3DPlot Environment of pgfplots. The style declarations are already included in the snippet.
         > The `title`, `colormap` and `axis lines` have to be specified.
     - `plotgraph3d` or `\plotgraph3d`: Plot a 3D Graph in the 3D graph environment created.
         > The math expression and LaTeX expression have to be specified.
 
+I feel extremely sorry that `LaTeX` is not supported by Microsoft in `markdown`.
 ### Powerful Plotting Tools
 
 Using the command `LaTeX Plotting Tool`, you can quickly draw a custom regression graph for any degree according to the points you pointed out in the canvas.
@@ -80,7 +73,12 @@ Dependency:
 With VSCode Verson no lower than `1.41.0`
 
 > Tip: `Auto-save` option is recommended to be enabled.
-> `LaTeX Workshop` extension is recommended to be installed, it's available in the market place. 
+> `LaTeX Workshop` extension is recommended to be installed, it's available in the market place.
+
+## Github
+
+The Github page of this project is [https://github.com/JeffersonQin/VSCode-LaTeX-Snippets](https://github.com/JeffersonQin/VSCode-LaTeX-Snippets). If you have any suggestion or want to have some additional functions, please feel free to contact me (my personal e-mail: 1247006353@qq.com) or write a review either here or at github. Thank you.
+
 
 ## Extension Settings
 
