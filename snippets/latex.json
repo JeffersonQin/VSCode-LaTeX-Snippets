@@ -112,7 +112,7 @@
         "body": [
             "\\section{$1}$0"
         ],
-        "description": "Insert a new subtion."
+        "description": "Insert a new section."
     },
     "Subsection": {
         "prefix": ["subsection", "\\subsection"],
