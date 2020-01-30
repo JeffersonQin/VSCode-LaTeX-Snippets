@@ -50,5 +50,5 @@
 	"dependencies": {
 		"js-polynomial-regression": "^0.9.1"
     },
-    "icon": "../lib/images/icon-128.png"
+    "icon": "lib/images/icon-128.png"
 }
