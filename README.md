@@ -109,3 +109,7 @@ Adding Information.
 ### 1.1.3
 
 Fix introduction page.
+
+### 1.1.4
+
+Add icon.
