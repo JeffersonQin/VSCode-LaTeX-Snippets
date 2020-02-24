@@ -113,3 +113,9 @@ Fix introduction page.
 ### 1.1.4
 
 Add icon.
+
+### 1.1.5
+
+Bug Fix:
+- Fix the misspelling of word 'theorem'
+- Fix the snippets: `proof` and `definition`

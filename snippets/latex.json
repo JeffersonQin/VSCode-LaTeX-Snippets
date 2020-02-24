@@ -129,7 +129,7 @@
         "description": "Superscript notation, as well as the power notation."
     },
     "Theorem": {
-        "prefix": ["therom", "\\therom"],
+        "prefix": ["theorem", "\\theorem"],
         "body": [
             "\\begin{theorem}[${1:name of the theorem}]",
             "\t$0",
@@ -154,7 +154,7 @@
     "Definition": {
         "prefix": ["definition", "\\definition"],
         "body": [
-            "\\begin{definition}[{$1:name of the definition}]",
+            "\\begin{definition}[${1:name of the definition}]",
             "\t$0",
             "\\end{definition}"
         ],
@@ -163,7 +163,7 @@
     "Proof": {
         "prefix": ["proof", "\\proof"],
         "body": [
-            "\\begin{proof}[Proof{$1:Other Information}]",
+            "\\begin{proof}[Proof ${1:Other Information}]",
             "\t$0",
             "\\end{proof}"
         ],
