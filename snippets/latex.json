@@ -17,12 +17,12 @@
             "\\usepackage{color}",
             "\\usepackage{psfrag}",
             "\\usepackage{pgfplots}",
+            "\\usepackage{bm}",
             "",
             "\\definecolor{ocre}{RGB}{243,102,25}",
             "\\definecolor{mygray}{RGB}{243,243,244}",
             "",
             "\\newcommand\\orangebox[1]{\\fcolorbox{ocre}{mygray}{\\hspace{1em}#1\\hspace{1em}}}",
-            "\\linespread{1.6}",
             "",
             "\\newtheoremstyle{mytheoremstyle}",
             "\t{3pt}",
@@ -70,7 +70,7 @@
             "\\pgfplotsset{width=8cm,compat=1.9}",
             "",
             "\\title{${1:Title}}",
-            "\\author{Jeff Qin}",
+            "\\author{${2:Jeff Qin}}",
             "",
             "\\begin{document}",
             "\t\\maketitle",
@@ -330,5 +330,10 @@
             "\\end{align*}$0"
         ],
         "description": "Create an align environment when the context is in the text environment."
+    },
+    "Insert Problem Solving Index": {
+        "prefix": ["problemindex", "\\problemindex"], 
+        "body": ["\noindent\textbf{$1} $0"],
+        "description": "Insert problem solving index format."
     }
 }

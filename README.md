@@ -26,6 +26,7 @@ This extension includes a variety of snippets for LaTeX including making environ
     - `proof` or `\proof`: Insert a proof, whose style is already defined in the template. The serial number is automatically generated according to the section.
     - `tab` or `\tab`: The equivalent of "\t", also known as "Tab".
     - `aligntext` or `\aligntext`: Create an align environment when the context is in the text environment. (The equivalence of `align*`)
+    - `problemindex` or `\problemindex`: Insert problem solving index format.
 - **Plotting** Snippets
     - `plotenvironment2d` or `\plotenvironment2d`: Create a 2DPlot Environment of pgfplots. The style declarations are already included in the snippet. Thus, you can set up the position of the `axis lines`, the `color` and the `title` of the environment.
     - `plotgraph2d` or `\plotgraph2d`: Plot a 2D Graph in the 2D graph environment, noted that this can also be used in the 3D environment.
@@ -119,3 +120,12 @@ Add icon.
 Bug Fix:
 - Fix the misspelling of word 'theorem'
 - Fix the snippets: `proof` and `definition`
+
+### 1.1.6
+
+Template Adjusting:
+- Change the `linespread` back to 1.0
+- Add a place of change for the author
+- Included more packages:
+  - `bm`
+- Add a new snippet: `problemindex`
