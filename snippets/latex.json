@@ -333,7 +333,12 @@
     },
     "Insert Problem Solving Index": {
         "prefix": ["problemindex", "\\problemindex"], 
-        "body": ["\noindent\textbf{$1} $0"],
+        "body": ["\\noindent\\textbf{$1} $0"],
         "description": "Insert problem solving index format."
-    }
+    },
+    "Insert Solution Notation": {
+        "prefix": ["solution", "\\solution"],
+        "body": ["\\textit{ Sol. }"],
+        "description": "Insert italic 'Sol.'"
+    } 
 }

@@ -27,7 +27,8 @@ This extension includes a variety of snippets for LaTeX including making environ
     - `tab` or `\tab`: The equivalent of "\t", also known as "Tab".
     - `aligntext` or `\aligntext`: Create an align environment when the context is in the text environment. (The equivalence of `align*`)
     - `problemindex` or `\problemindex`: Insert problem solving index format.
-- **Plotting** Snippets
+    - `solution` or `\solution`: Insert italic 'Sol.'
+ - **Plotting** Snippets
     - `plotenvironment2d` or `\plotenvironment2d`: Create a 2DPlot Environment of pgfplots. The style declarations are already included in the snippet. Thus, you can set up the position of the `axis lines`, the `color` and the `title` of the environment.
     - `plotgraph2d` or `\plotgraph2d`: Plot a 2D Graph in the 2D graph environment, noted that this can also be used in the 3D environment.
         > In this case, you have to specify the math expression of the function and the `LaTeX` form of the function since you may want it to shown as the label of the graph. Also, the domain and the color have to be given out.
@@ -129,3 +130,10 @@ Template Adjusting:
 - Included more packages:
   - `bm`
 - Add a new snippet: `problemindex`
+
+### 1.1.7
+
+Bug Fix:
+- `problemindex`
+New Snippets:
+- `solution`
