@@ -4,6 +4,10 @@ This extension includes a variety of snippets for LaTeX including making environ
 
 ## Features
 
+### Smart Auto-Suggestion
+
+Auto Suggestion will be on even operating on a snippet. It will on whenever a character is typed and can be close simply by typing a space. Also, typings like "tab" or "enter" will not enable the auto-suggestion.
+
 ### Powerful Snippets for Formulas, Environments and Plotting
  - **Template** Snippet
     - `template` or `\template`: Use the default template which includes a variety of packages and declared-commands. The template will also automatically generate the title and author, as well as date, and will formate the document.
@@ -88,6 +92,10 @@ No known issues yet.
 
 ## Release Notes
 
+## License
+
+MIT License.
+
 ### 1.0.0
 
 Initial release of latex-snippets-jeff.
@@ -137,3 +145,8 @@ Bug Fix:
 - `problemindex`
 New Snippets:
 - `solution`
+
+### 1.2.0
+
+New Feature: 
+- In tex files, whenever a character is typed (except the notations), the auto suggestion will be shown.
