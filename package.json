@@ -2,7 +2,7 @@
 	"name": "latex-snippets-jeff",
 	"displayName": "LaTeX Snippets",
 	"description": "Useful Snippets for LaTeX",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"publisher": "JeffersonQin",
 	"engines": {
 		"vscode": "^1.41.0"
@@ -19,6 +19,16 @@
 	],
 	"main": "./src/extension.js",
 	"contributes": {
+        "configuration": {
+            "title": "LaTeX Snippets Configuration",
+            "properties": {
+                "latex-snippets.autoSuggestionOn": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Auto-suggestion will be shown whenever a character is typed. Especially useful when typing Chinese."
+                }
+            }
+        },
 		"snippets": [
 			{
 				"language": "latex",

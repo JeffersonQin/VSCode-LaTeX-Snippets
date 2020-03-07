@@ -108,6 +108,7 @@ function activate(context) {
     }));
 
     context.subscriptions.push(vscode.workspace.onDidChangeTextDocument((e) => {
+        if (vscode.workspace.getConfiguration().get("latex-snippets.autoSuggestionOn") == false) return;
         let s = e.contentChanges[0].text;
         if (s == "") return
         if (s.indexOf("\n") != -1) return

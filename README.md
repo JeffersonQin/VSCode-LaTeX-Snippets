@@ -6,7 +6,10 @@ This extension includes a variety of snippets for LaTeX including making environ
 
 ### Smart Auto-Suggestion
 
-Auto Suggestion will be on even operating on a snippet. It will on whenever a character is typed and can be close simply by typing a space. Also, typings like "tab" or "enter" will not enable the auto-suggestion.
+Auto Suggestion will be on even operating on a snippet. It will on whenever a character is typed and can be close simply by typing a space. Also, typings like "tab" or "enter" will not enable the auto-suggestion. This function can be turned on in the setting page of the extension, or you can add the following code to your setting file: 
+```json
+"latex-snippets.autoSuggestionOn": true
+```
 
 ### Powerful Snippets for Formulas, Environments and Plotting
  - **Template** Snippet
@@ -150,3 +153,7 @@ New Snippets:
 
 New Feature: 
 - In tex files, whenever a character is typed (except the notations), the auto suggestion will be shown.
+
+### 1.2.1
+
+From now on, you have to enable the `auto-suggestion` manually in the setting page.
