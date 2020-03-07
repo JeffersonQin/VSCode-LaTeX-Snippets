@@ -83,7 +83,7 @@ function activate(context) {
 	// Now provide the implementation of the command with  registerCommand
 	// The commandId parameter must match the command field in package.json
 
-    context.subscriptions.push(vscode.commands.registerCommand('extension.openWebview', function (uri) {
+    context.subscriptions.push(vscode.commands.registerCommand('latex-snippets.plot', function (uri) {
         // // 工程目录一定要提前获取，因为创建了webview之后activeTextEditor会不准确
         // const projectPath = util.getProjectPath(uri);
         // if (!projectPath) return;
@@ -106,6 +106,21 @@ function activate(context) {
             }
         }, undefined, context.subscriptions);
     }));
+
+    context.subscriptions.push(vscode.workspace.onDidChangeTextDocument((e) => {
+        let s = e.contentChanges[0].text;
+        if (s == "") return
+        if (s.indexOf("\n") != -1) return
+        if (s.indexOf(" ") != -1) return
+        if (s == "(") return
+        if (s == ")") return
+        if (s == "[") return
+        if (s == "]") return
+        if (s == "{") return
+        if (s == "}") return
+        if (s == "$") return
+        vscode.commands.executeCommand("editor.action.triggerSuggest");
+    }))
 
 }
 
