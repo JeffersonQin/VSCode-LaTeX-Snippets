@@ -36,15 +36,15 @@
 		"test": "node ./test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/glob": "^7.1.1",
+		"@types/glob": "^7.1.2",
 		"@types/mocha": "^5.2.7",
-		"@types/node": "^12.11.7",
-		"@types/vscode": "^1.41.0",
+		"@types/node": "^12.12.47",
+		"@types/vscode": "^1.45.1",
 		"eslint": "^6.6.0",
 		"glob": "^7.1.5",
-		"mocha": "^6.2.2",
-		"typescript": "^3.6.4",
-		"vscode-test": "^1.2.2"
+		"mocha": "^6.2.3",
+		"typescript": "^3.9.5",
+		"vscode-test": "^1.4.0"
 	},
 	"repository": {
 		"type": "git",
