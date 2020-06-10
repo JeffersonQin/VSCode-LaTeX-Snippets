@@ -6,16 +6,16 @@
 	"publisher": "JeffersonQin",
 	"engines": {
 		"vscode": "^1.41.0"
-    },
+	},
 	"categories": [
 		"Snippets"
 	],
 	"activationEvents": [
-        "onLanguage:tex",
-        "onLanguage:latex",
-        "onLanguage:doctex",
-        "onLanguage:bibtex",
-        "onCommand:latex-snippets.plot"
+		"onLanguage:tex",
+		"onLanguage:latex",
+		"onLanguage:doctex",
+		"onLanguage:bibtex",
+		"onCommand:latex-snippets.plot"
 	],
 	"main": "./src/extension.js",
 	"contributes": {
@@ -24,13 +24,13 @@
 				"language": "latex",
 				"path": "./snippets/latex.json"
 			}
-        ],
-        "commands": [
-            {
-                "title": "LaTeX Plotting Tool",
-                "command": "latex-snippets.plot"
-            }
-        ]
+		],
+		"commands": [
+			{
+				"title": "LaTeX Plotting Tool",
+				"command": "latex-snippets.plot"
+			}
+		]
 	},
 	"scripts": {
 		"test": "node ./test/runTest.js"
@@ -52,8 +52,7 @@
 	},
 	"homepage": "https://github.com/JeffersonQin/VSCode-LaTeX-Snippets/blob/master/README.md",
 	"dependencies": {
-		"minimist": ">=0.2.1",
 		"js-polynomial-regression": "^0.9.1"
-    },
-    "icon": "lib/images/icon-128.png"
+	},
+	"icon": "lib/images/icon-128.png"
 }
