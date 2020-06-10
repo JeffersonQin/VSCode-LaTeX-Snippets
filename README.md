@@ -4,13 +4,6 @@ This extension includes a variety of snippets for LaTeX including making environ
 
 ## Features
 
-### Smart Auto-Suggestion
-
-Auto Suggestion will be on even operating on a snippet. It will on whenever a character is typed and can be close simply by typing a space. Also, typings like "tab" or "enter" will not enable the auto-suggestion. This function can be turned on in the setting page of the extension, or you can add the following code to your setting file: 
-```json
-"latex-snippets.autoSuggestionOn": true
-```
-
 ### Powerful Snippets for Formulas, Environments and Plotting
  - **Template** Snippet
     - `template` or `\template`: Use the default template which includes a variety of packages and declared-commands. The template will also automatically generate the title and author, as well as date, and will formate the document.
@@ -27,6 +20,8 @@ Auto Suggestion will be on even operating on a snippet. It will on whenever a ch
     - `mathcentered` or `mathcentered`: Insert centered Math Environment: `$$ $$`.
     - `section` or `\section`: Insert a new section.
     - `subsection` or `\subsection`: Insert a new subsection.
+    - `header` or `\header`: Insert a new section without index.
+    - `headersmall` or `\headersmall`: Insert a new subsection without index.
     - `theorem` or `\theorem`: Insert a theorem, whose style is already defined in the template. The serial number is automatically generated according to the section.
     - `problem` or `\problem`: Insert a problem, whose style is already defined in the template. The serial number is automatically generated according to the section.
     - `definition` or `\definition`: Insert a definition, whose style is already defined in the template. The serial number is automatically generated according to the section.
@@ -157,3 +152,20 @@ New Feature:
 ### 1.2.1
 
 From now on, you have to enable the `auto-suggestion` manually in the setting page.
+
+### 1.2.2
+
+- Update:
+  - Refined the environment for Definitions and Theorems.
+  - Reorganized the `template`
+- New Snippets:
+  - `header`
+  - `headersmall`
+  - `italic`
+  - `bold`
+  - `bolditalic`
+  - `itemize`
+- Removal:
+  - The `auto-suggestion` function is removed due to many complains. In the later versions, better replacement for this function will be added.
+- Issues solved:
+  - Thanks of the issue raised by [h7ml](https://github.com/h7ml), from now on the `node_modules` will not be on GitHub again. 

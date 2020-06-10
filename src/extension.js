@@ -107,21 +107,9 @@ function activate(context) {
         }, undefined, context.subscriptions);
     }));
 
-    context.subscriptions.push(vscode.workspace.onDidChangeTextDocument((e) => {
-        if (vscode.workspace.getConfiguration().get("latex-snippets.autoSuggestionOn") == false) return;
-        let s = e.contentChanges[0].text;
-        if (s == "") return
-        if (s.indexOf("\n") != -1) return
-        if (s.indexOf(" ") != -1) return
-        if (s == "(") return
-        if (s == ")") return
-        if (s == "[") return
-        if (s == "]") return
-        if (s == "{") return
-        if (s == "}") return
-        if (s == "$") return
-        vscode.commands.executeCommand("editor.action.triggerSuggest");
-    }))
+    // context.subscriptions.push(vscode.workspace.onDidChangeTextDocument((e) => {
+
+    // }))
 
 }
 
