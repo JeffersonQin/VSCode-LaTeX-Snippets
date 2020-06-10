@@ -52,6 +52,7 @@
 	},
 	"homepage": "https://github.com/JeffersonQin/VSCode-LaTeX-Snippets/blob/master/README.md",
 	"dependencies": {
+		"minimist": ">=0.2.1",
 		"js-polynomial-regression": "^0.9.1"
     },
     "icon": "lib/images/icon-128.png"
