@@ -169,3 +169,7 @@ From now on, you have to enable the `auto-suggestion` manually in the setting pa
   - The `auto-suggestion` function is removed due to many complains. In the later versions, better replacement for this function will be added.
 - Issues solved:
   - Thanks of the issue raised by [h7ml](https://github.com/h7ml), from now on the `node_modules` will not be on GitHub again. 
+
+### 1.2.3
+
+Security Update & Bug Fix.
