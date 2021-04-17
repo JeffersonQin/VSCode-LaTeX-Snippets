@@ -45,7 +45,6 @@ This extension includes a variety of snippets for LaTeX including making environ
     - `plotgraph3d` or `\plotgraph3d`: Plot a 3D Graph in the 3D graph environment created.
         > The math expression and LaTeX expression have to be specified.
 
-I feel extremely sorry that `LaTeX` is not supported by Microsoft in `markdown`.
 ### Powerful Plotting Tools
 
 Using the command `LaTeX Plotting Tool`, you can quickly draw a custom regression graph for any degree according to the points you pointed out in the canvas.
